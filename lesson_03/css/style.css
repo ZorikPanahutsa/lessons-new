@@ -1,0 +1,47 @@
+@import url("reset.css");
+
+p {
+    color: blue;
+}
+h2 {
+    color: aqua;
+}
+.title {
+color: yellow;
+}
+#top {
+    color: blueviolet;
+}
+
+div {
+	font-size: 20px;
+}
+
+h1.title{
+    font-size:250%;
+}
+.article + p {
+    color: red;
+}
+
+.article > p {
+    color: green;
+}
+
+.list {
+    color: chartreuse;
+}
+
+.list-one,
+.text-one,
+#section-01 {
+    color: brown;
+}
+
+.list a{
+    color: orange;
+	text-decoration: underline
+}
+.article p{
+    margin-bottom: 10px;
+}
